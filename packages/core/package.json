@@ -1,6 +1,6 @@
 {
   "name": "@walle-cli-dev/core-dev",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "项目主目录",
   "author": "walle <942590550@qq.com>",
   "homepage": "",
@@ -20,7 +20,7 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@walle-cli-dev/utils-dev": "^1.0.7",
+    "@walle-cli-dev/utils-dev": "^1.0.8",
     "walle-cli-test": "^1.1.0"
   },
   "publishConfig": {
