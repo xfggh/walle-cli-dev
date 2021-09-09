@@ -6,6 +6,9 @@
   "homepage": "",
   "license": "ISC",
   "main": "lib/index.js",
+  "bin": {
+    "walle-cli-dev": "bin/index.js"
+  },
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -19,5 +22,8 @@
   "dependencies": {
     "@walle-cli-dev/utils": "^1.0.1",
     "walle-cli-test": "^1.1.0"
-  }
+  },
+  "publishConfig": {
+    "access": "public"
+ }
 }
