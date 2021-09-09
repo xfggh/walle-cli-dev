@@ -20,7 +20,7 @@
 
 4. 更改 lerna 版本，和项cwd目版本一致
 
-   <img src=".note-assets/05-创建一个lerna项目/image-20210906125010813.png" alt="image-20210906125010813" style="zoom:50%;" />
+   <img src=".note-assets/05-创建一个lerna项目/image-20210906125010813.png" alt="image-20210906125010813" />
 
 5. 初始化 git 仓库，因为 lerna 是基于 git + npm 的，所以必须使用 git 托管代码
 
@@ -37,7 +37,7 @@
 
    这个文件的 `@walle-cli-dev` 表示组织 需要先在 `npmjs.com`  添加组织，可以理解为 命名空间，直接包名是 core 的话肯定发布不了的
 
-   <img src=".note-assets/05-创建一个lerna项目/image-20210909095424763.png" alt="image-20210909095424763" style="zoom:50%;" />
+   <img src=".note-assets/05-创建一个lerna项目/image-20210909095424763.png" alt="image-20210909095424763" />
 
    
 
@@ -64,7 +64,7 @@
 
    当我们通过 `lerna add package` 为所有包安装了依赖,然后用 `lerna clean` 清除了 `node_modules`，但是 `leran clean` 不会清除 `dependencies` 里面的依赖，再次使用 `lerna add package` 的时候：
 
-   <img src=".note-assets/05-创建一个lerna项目/image-20210909102433687.png" alt="image-20210909102433687" style="zoom:50%;" />
+   <img src=".note-assets/05-创建一个lerna项目/image-20210909102433687.png" alt="image-20210909102433687" />
 
    这次需要使用 `lerna bootstrap`
 
