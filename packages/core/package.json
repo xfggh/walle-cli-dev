@@ -1,5 +1,5 @@
 {
-  "name": "@walle-cli-dev/core",
+  "name": "@walle-cli-dev/core-dev",
   "version": "1.0.5",
   "description": "项目主目录",
   "author": "walle <942590550@qq.com>",
@@ -20,11 +20,11 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@walle-cli-dev/utils": "^1.0.1",
+    "@walle-cli-dev/utils-dev": "^1.0.1",
     "walle-cli-test": "^1.1.0"
   },
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "f09cedd061650a12f6dcdf4d95c4b196bf611e9f"
+  "gitHead": "1c7ccb8a7082ccabc1d59678bc5d91c9340eeec5"
 }
