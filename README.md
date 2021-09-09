@@ -96,7 +96,7 @@
 
    执行 `lerna link`
 
-   <img src=".note-assets/05-创建一个lerna项目/image-20210909103759937.png" alt="image-20210909103759937" style="zoom:50%;" />
+   <img src=".note-assets/05-创建一个lerna项目/image-20210909103759937.png" alt="image-20210909103759937" />
 
    注意看这里远程的包并没有在 `node_modules` 出现， 只是执行了依赖本地的包，注意和 `lerna bootstrap` 的区别
 
@@ -149,7 +149,7 @@
 
    可以查看 那些包有更改将会被发布
 
-   <img src=".note-assets/05-创建一个lerna项目/image-20210909112535447.png" alt="image-20210909112535447" style="zoom:50%;" />
+   <img src=".note-assets/05-创建一个lerna项目/image-20210909112535447.png" alt="image-20210909112535447" />
 
    
 
@@ -157,7 +157,7 @@
 
    可以查看两次距上次 `commit` 具体更改了什么
 
-   <img src=".note-assets/05-创建一个lerna项目/image-20210909112705830.png" alt="image-20210909112705830" style="zoom:50%;" />
+   <img src=".note-assets/05-创建一个lerna项目/image-20210909112705830.png" alt="image-20210909112705830" />
 
    **注意：**这些命令都是在 `packages` 下有更改才会检测到，当我尝试修改 `README.md` 文件时，这些命令不会去管它
 
@@ -167,17 +167,17 @@
 
    执行 `lerna version` 会发生：
 
-   <img src=".note-assets/05-创建一个lerna项目/image-20210909111916735.png" alt="image-20210909111916735" style="zoom:50%;" />
+   <img src=".note-assets/05-创建一个lerna项目/image-20210909111916735.png" alt="image-20210909111916735" />
 
    并且在 `github` 上：
 
-   <img src=".note-assets/05-创建一个lerna项目/image-20210909111959394.png" alt="image-20210909111959394" style="zoom:50%;" />
+   <img src=".note-assets/05-创建一个lerna项目/image-20210909111959394.png" alt="image-20210909111959394" />
 
    当 `packages` 下的内容有更改时，需要先 `commit` 才能执行 `lerna version
 
    
 
-   <img src=".note-assets/05-创建一个lerna项目/image-20210909114312489.png" alt="image-20210909114312489" style="zoom:50%;" />
+   <img src=".note-assets/05-创建一个lerna项目/image-20210909114312489.png" alt="image-20210909114312489" />
 
    **这里当我们选 y 时：**
 
@@ -189,7 +189,7 @@
 
    **选 y** 会执行上面流程 但是会影响后面的 `publish` 因为这里已经提升了版本，并推送了 `version` 和 代码，执行 `publish` 的时候就会认为版本没有变化：
 
-   <img src=".note-assets/05-创建一个lerna项目/image-20210909114845254.png" alt="image-20210909114845254" style="zoom:50%;" />
+   <img src=".note-assets/05-创建一个lerna项目/image-20210909114845254.png" alt="image-20210909114845254" />
 
    **选 n** 就什么都不执行
 
