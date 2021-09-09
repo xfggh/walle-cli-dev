@@ -1,6 +1,6 @@
 {
   "name": "@walle-cli-dev/core",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "项目主目录",
   "author": "walle <942590550@qq.com>",
   "homepage": "",
@@ -25,5 +25,5 @@
   },
   "publishConfig": {
     "access": "public"
- }
+  }
 }
